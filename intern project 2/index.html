@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizna Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mizna</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="section">
+        <div class="container home-container">
+            <div class="home-content">
+                <h1>Hello!</h1>
+                <h2>I'm a passionate <span class="highlight">web developer</span></h2>
+                <div class="buttons">
+                    <button onclick="location.href='https://wa.me/923248047492'">Hire Me</button>
+                    <button onclick="location.href='https://github.com/MiznaMasood'">My Works</button>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="./Untitled design - 236 × 388px - Google Chrome 29_07_2024 8_21_23 pm.png" alt="Clark Portfolio Home Image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="./img2-removebg-preview.png" alt="Clark Portfolio About Image">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <ul>
+                    <li>Name: Mizna Masood</li>
+                    <li>Date of birth: February 01, 2006</li>
+                    <li>Email: miznamasood2007@gmail.com</li>
+                    <li>Phone: +92-324-8047492</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <span>HTML5</span>
+                <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <span>CSS3</span>
+                <div class="progress-bar" style="width: 95%;"></div>
+            </div>
+            <div class="skill">
+                <span>Javascript</span>
+                <div class="progress-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill">
+                <span>Bootstrap</span>
+                <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <span>Responsiveness</span>
+                <div class="progress-bar" style="width: 70%;"></div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="projecth1">My Projects</h2>
+            <p class="projectp">Showcasing some of my recent work and development projects that highlight my skills and expertise.</p>
+          
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="./project1.png" alt="Project 1">
+                    <h3>Github Finder App</h3>
+                    <h4><a href="https://github-user-finder-application.netlify.app/">View Project</a></h4>
+                </div>
+                <div class="project-item">
+                    <img src="./project2.png" alt="Project 2">
+                    <h3>Weather App</h3>
+                    <h4><a href="https://miz-weather-app.netlify.app/">View Project</a></h4>
+                </div>
+                <div class="project-item">
+                    <img src="./project3.png" alt="Project 3">
+                    <h3>E-commerce Website</h3>
+                    <h4><a href="https://jilani-jewellers.netlify.app/">View Project</a></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blog" class="section" style="background-image: url('./projec.webp'); background-size: cover; background-position: center;">
+        <div class="blog-container">
+            <h2>I'm Available for Freelancing</h2>
+            <p>Looking for a skilled and dedicated web developer? I'm here to help you bring your vision to life.</p>
+            <button onclick="location.href='https://wa.me/923248047492'">Hire Me</button>
+
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="button-blog" onclick="sendMessage()">Send Message</button>
+        </form>
+        
+    </section>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>About</h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: miznamasood2007@gmail.com</li>
+                        <li>Phone: +92-324-8047492</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mizna Masood. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="ap.js"></script>
+    <script>
+        function sendMessage() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var whatsappUrl = `https://wa.me/923248047492?text=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)}`;
+            
+            window.location.href = whatsappUrl;
+        }
+        </script>
+        
+</body>
+</html>
+
+
+
+
+
+
